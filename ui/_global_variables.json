@@ -1,0 +1,20 @@
+{
+  "$book_page_number_color": [ 0.92, 0.8756, 0.7289 ],
+  "$trade_tier_name_locked_color": [ 1.0, 1.0, 1.0 ],
+  "$trade_lock_color": [ 0.0, 0.0, 0.0 ],
+  "$light_border_default_color": [ 0.4117, 0.3294, 0.2 ],
+  "$light_border_hover_color": [ 1.0, 1.0, 1.0 ],
+  "$light_border_pressed_color": [ 1.0, 1.0, 1.0 ],
+  "$light_border_locked_color": [ 0.4117, 0.3294, 0.2 ],
+  "$light_button_default_text_color": [ 0.3, 0.3, 0.3 ],
+  "$light_button_hover_text_color": [ 1.0, 1.0, 1.0 ],
+  "$light_button_pressed_text_color": [ 1.0, 1.0, 1.0 ],
+  "$light_button_locked_text_color": [ 0.7, 0.7, 0.7 ],
+  "$enchanting_runes_color": [ 0.54, 0.37, 0.36 ],
+  "$enchanting_cost_success_color": [ 0.5, 1, 0.125 ],
+  "$anvil_cost_success_text_color": [ 0.5, 1, 0.125 ],
+  "$smithing_table_cost_success_text_color": [ 0.5, 1, 0.125 ],
+  "$slider_default_border_color": [ 0.4117, 0.3294, 0.2 ],
+  "$slider_hover_border_color": [ 1.0, 1.0, 1.0 ]
+}
+

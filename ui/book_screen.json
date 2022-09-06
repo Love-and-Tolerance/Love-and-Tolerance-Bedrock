@@ -1,0 +1,226 @@
+/********************************************************
+*   (c) Mojang. All rights reserved                      *
+*   (c) Microsoft. All rights reserved.                  *
+*********************************************************/
+
+{
+  "namespace": "book",
+
+  "pick_panel": {
+    "type": "image",
+    "texture": "textures/ui/book_frame",
+    "size": [ "225px", "218px" ],
+
+    "controls": [
+      {
+        "scroll@common.scrolling_panel": {
+          "$show_background": false,
+          "$scrolling_pane_size": [ "100% - 16px", "100% - 28px" ],
+          "$scrolling_pane_offset": [ 8, 18 ],
+          "$scrolling_content": "book.pick_scrolling_content"
+        }
+      },
+      {
+        "close_button@book.close_button": {
+          "offset": [ -3, 5 ]
+        }
+      }
+    ]
+  },
+
+  "page_buttons_panel": {
+    "type": "stack_panel",
+    "orientation": "horizontal",
+    "size": [ "100%c", 12 ],
+    "offset": [ 0, -19 ],
+    "anchor_from": "bottom_middle",
+    "anchor_to": "bottom_middle",
+
+    "controls": [
+      {
+        "swap_page_left@book.padded_button": {
+          "$button_size": [ 18, 12 ],
+
+          "$pressed_button_name": "button.swap_page_left",
+          "$button_active": "#swap_left_active",
+          "$button_bind_type": "collection",
+          "$default_texture": "textures/ui/book_shiftleft_default",
+          "$hover_texture": "textures/ui/book_shiftleft_hover",
+          "$pressed_texture": "textures/ui/book_shiftleft_pressed"
+        }
+      },
+      {
+        "insert_text_page@book.padded_button": {
+          "$button_size": [ 12, 12 ],
+
+          "$pressed_button_name": "button.insert_text_page",
+          "$button_active": "#insert_page_active",
+          "$button_bind_type": "collection",
+          "$default_texture": "textures/ui/book_addtextpage_default",
+          "$hover_texture": "textures/ui/book_addtextpage_hover",
+          "$pressed_texture": "textures/ui/book_addtextpage_pressed"
+        }
+      },
+      {
+        "insert_photo_page@book.padded_button": {
+          "$button_size": [ 15, 12 ],
+          "ignored": "(not $education_edition)",
+
+          "$pressed_button_name": "button.insert_photo_page",
+          "$button_active": "#insert_photo_page_active",
+          "$button_bind_type": "collection",
+          "$default_texture": "textures/ui/book_addpicture_default",
+          "$hover_texture": "textures/ui/book_addpicture_hover",
+          "$pressed_texture": "textures/ui/book_addpicture_pressed"
+        }
+      },
+      {
+        "delete_page@book.padded_button": {
+          "$button_size": [ 12, 12 ],
+
+          "$pressed_button_name": "button.delete_page",
+          "$button_active": "#edit_controls_active",
+          "$default_texture": "textures/ui/book_trash_default",
+          "$hover_texture": "textures/ui/book_trash_hover",
+          "$pressed_texture": "textures/ui/book_trash_pressed"
+        }
+      },
+      {
+        "swap_page_right@book.padded_button": {
+          "$button_size": [ 18, 12 ],
+
+          "$pressed_button_name": "button.swap_page_right",
+          "$button_active": "#swap_right_active",
+          "$button_bind_type": "collection",
+          "$default_texture": "textures/ui/book_shiftright_default",
+          "$hover_texture": "textures/ui/book_shiftright_hover",
+          "$pressed_texture": "textures/ui/book_shiftright_pressed"
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#edit_controls_active",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "book_pages"
+      },
+      {
+        "binding_type": "collection_details",
+        "binding_collection_name": "book_pages"
+      }
+    ]
+  },
+
+  "page_content_panel": {
+    "type": "panel",
+    "offset": "$page_content_offset",
+
+    "controls": [
+      { "page_text@book.page_text": {} },
+      { "page_photo@book.page_photo": {} },
+      { "page_number_label@book.page_number_label": {} },
+      { "page_buttons_panel@book.page_buttons_panel": {} },
+      {
+        "edit_page@book.base_button": {
+          "size": [ 13, 12 ],
+          "offset": [ 0, -19 ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle",
+
+          "$pressed_button_name": "button.edit_page",
+          "$button_active": "#edit_button_active",
+          "$button_bind_type": "collection",
+          "$default_texture": "textures/ui/book_edit_default",
+          "$hover_texture": "textures/ui/book_edit_hover",
+          "$pressed_texture": "textures/ui/book_edit_pressed"
+        }
+      }
+    ],
+    "bindings": [
+      {
+        "binding_name": "#page_visible",
+        "binding_name_override": "#visible",
+        "binding_type": "collection",
+        "binding_collection_name": "book_pages"
+      }
+    ]
+  },
+
+  "book_and_buttons_panel": {
+    "type": "panel",
+    "size": [ "100%cm", "100%" ],
+    "max_size": [ "100%", "228px" ],
+
+    "controls": [
+      {
+        "book_panel": {
+          "type": "panel",
+          "size": "$book_size",
+
+          "anchor_from": "top_middle",
+          "anchor_to": "top_middle",
+
+          "controls": [
+            { "book_grid@book.book_grid": {} },
+            { "book_background@book.book_background": {} },
+            {
+              "book_spine_image@book.book_spine_image": {
+                "size": [ "8px", "100% - 15px" ],
+                "offset": [ 0, -0.5 ]
+              }
+            },
+            {
+              "close_button@book.close_button": {
+                "offset": [ -14, 12 ]
+              }
+            },
+            {
+              "prev_button@book.base_button": {
+                "size": [ 12, 12 ],
+                "offset": [ 11, 0 ],
+                "anchor_from": "left_middle",
+                "anchor_to": "left_middle",
+
+                "sound_name": "item.book.page_turn",
+                "sound_volume": 4.0,
+                "sound_pitch": 1.0,
+
+                "$pressed_button_name": "button.prev_page",
+                "$button_active": "#prev_page_button_active",
+                "$default_texture": "textures/ui/book_arrowleft_default",
+                "$hover_texture": "textures/ui/book_arrowleft_hover",
+                "$pressed_texture": "textures/ui/book_arrowleft_pressed"
+              }
+            },
+            {
+              "next_button@book.base_button": {
+                "size": [ 12, 12 ],
+                "offset": [ -11, 0 ],
+                "anchor_from": "right_middle",
+                "anchor_to": "right_middle",
+
+                "sound_name": "item.book.page_turn",
+                "sound_volume": 4.0,
+                "sound_pitch": 1.0,
+
+                "$pressed_button_name": "button.next_page",
+                "$button_active": "#next_page_button_active",
+                "$default_texture": "textures/ui/book_arrowright_default",
+                "$hover_texture": "textures/ui/book_arrowright_hover",
+                "$pressed_texture": "textures/ui/book_arrowright_pressed"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "book_buttons_panel@book.book_buttons_panel": {
+          "size": [ "100%sm", "100%cm" ],
+          "anchor_from": "bottom_middle",
+          "anchor_to": "bottom_middle"
+        }
+      }
+    ]
+  }
+}

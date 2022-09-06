@@ -1,0 +1,458 @@
+  gui.yes=Eeyup
+  gui.no=Eenope
+
+  menu.singleplayer=Singlepony
+  menu.multiplayer=Multipony
+  menu.online=Equestria Online
+
+  selectWorld.deleteWarning=will be lost foreeeeeveeeerrrr! (A long time!)
+  disconnect.kicked=Can spend their time playing ON THE MOOOOOOOOOOOON!
+
+  connect.connecting=Opening portal...
+  connect.authorizing=Talking to the Princess...
+  connect.failed=Sorry you're not friendship enough
+  chat.link.confirm=Do you Pinkie promise you want to open the following website?
+  chat.link.warning=Never open links from ponies that you don't trust!
+
+  options.gamma.min=Pinkamena
+  options.gamma.max=Pinkie Pie
+  options.sensitivity.max=20% Faster
+
+  key.playerlist=List Ponies
+  key.spectatorOutlines=Highlight Ponies (Spectators)
+  
+  trade.level.1=School of Friendship Student
+  trade.level.2=Faithful Student
+  trade.level.3=Journeypone
+  trade.level.4=Friendship Expert
+  trade.level.5=School of Friendship Teacher
+
+  tile.monster_egg.brick.name=Discorded Stone Brick
+  tile.monster_egg.chiseledbrick.name=Discorded Chiseled Stone Brick
+  tile.monster_egg.cobble.name=Discorded Cobblestone
+  tile.monster_egg.crackedbrick.name=Discorded Cracked Stone Brick
+  tile.monster_egg.mossybrick.name=Discorded Mossy Stone Brick
+  tile.monster_egg.name=Discorded Stone
+  tile.monster_egg.stone.name=Discorded Stone
+  tile.wither_rose.name=Poison Joke
+  tile.slime.name=Block of Smooze
+
+  item.skull.player.name=Pony Head
+  item.skull.zombie.name=Zompony Head
+  item.skull.skeleton.name=Skelepone Skull
+  item.skull.wither.name=Discorded Skelepone Skull
+
+  item.bucketPuffer.name=Bucket of Spike
+  item.pufferfish.name=Spike
+  item.spawn_egg.entity.pufferfish.name=Spike Spawn Egg
+  item.chicken.name=Raw Scootaloo
+  item.cooked_chicken.name=Cooked Scootaloo
+  item.blaze_rod.name=Twicane
+  item.cooked_rabbit.name=Cooked Angel Bunny
+  item.dragon_breath.name=Spike's Bad Breath
+  item.experience_bottle.name=Bottle of Friendship
+  item.gold_nugget.name=Gold Bit
+  item.iron_nugget.name=Silver Bit
+  item.knowledge_book=Knowledge Scroll
+  item.phantom_membrane.name=Roc Pelt
+  item.rabbit.name=Raw Angel Bunny
+  item.rabbit_foot.name=Angel Bunny's Foot
+  item.rabbit_hide.name=Angel Bunny's Hide
+  item.rabbit_stew.name=Bunny Stew
+  item.slime_ball.name=Ball of Smooze
+  item.totem.name=Mr Smarty Pants
+
+  item.elytra.name=Changeling Wings
+  item.trident.name=Fork of Friendship
+
+  item.leather_helmet.name=CMC Helmet
+  item.leather_chestplate.name=CMC Cape
+  item.leather_leggings.name=CMC Knee pads
+  item.leather_boots.name=CMC Boots
+  item.chainmail_helmet.name=Crystal Guard Helmet
+  item.chainmail_chestplate.name=Crystal Guard Chestplate
+  item.chainmail_leggings.name=Crystal Guard Leggings
+  item.chainmail_boots.name=Crystal Guard Boots
+  item.golden_helmet.name=Royal Guard Helmet
+  item.golden_chestplate.name=Royal Guard Chestplate
+  item.golden_leggings.name=Royal Guard Leggings
+  item.golden_boots.name=Royal Guard Boots
+  item.diamond_helmet.name=Luna's Helmet
+  item.diamond_chestplate.name=Luna's Chestplate
+  item.diamond_leggings.name=Luna's Leggings
+  item.diamond_boots.name=Luna's Boots
+
+  entity.player=Pony
+
+
+
+  entity.chicken.name=Scootaloo
+  item.spawn_egg.entity.chicken.name=Scootaloo Spawn Egg
+  subtitles.entity.chicken.ambient=Scootaloo clucks
+  subtitles.entity.chicken.death=Scootaloo dies
+  subtitles.entity.chicken.egg=Scootaloo plops
+  subtitles.entity.chicken.hurt=Scootaloo hurts
+
+  entity.elder_guardian.name=Elder Seapony
+  item.spawn_egg.entity.elder_guardian.name=Elder Seapony Spawn Egg
+  subtitles.entity.elder_guardian.ambient_land=Elder Seapony flaps
+  subtitles.entity.elder_guardian.ambient=Elder Seapony moans
+  subtitles.entity.elder_guardian.curse=Elder Seapony curses
+  subtitles.entity.elder_guardian.death=Elder Seapony dies
+  subtitles.entity.elder_guardian.flop=Elder Seapony flops
+  subtitles.entity.elder_guardian.hurt=Elder Seapony hurts
+
+  entity.enderman.name=Enderstallion
+  item.spawn_egg.entity.enderman.name=Enderstallion Spawn Egg
+  subtitles.entity.enderman.ambient=Enderstallion vwoops
+  subtitles.entity.enderman.death=Enderstallion dies
+  subtitles.entity.enderman.hurt=Enderstallion hurts
+  subtitles.entity.enderman.stare=Enderstallion cries out
+  subtitles.entity.enderman.teleport=Enderstallion teleports
+
+  entity.guardian.name=Seapony
+  item.spawn_egg.entity.guardian.name=Seapony Spawn Egg
+  subtitles.entity.guardian.ambient_land=Seapony flaps
+  subtitles.entity.guardian.ambient=Seapony moans
+  subtitles.entity.guardian.attack=Seapony shoots
+  subtitles.entity.guardian.death=Seapony dies
+  subtitles.entity.guardian.flop=Seapony flops
+  subtitles.entity.guardian.hurt=Seapony hurts
+
+  entity.phantom.name=Roc
+  item.spawn_egg.entity.phantom.name=Roc Spawn Egg
+
+  entity.rabbit.name=Angel Bunny
+  item.spawn_egg.entity.rabbit.name=Angel Bunny Spawn Egg
+  subtitles.entity.rabbit.ambient=Angel Bunny squeaks
+  subtitles.entity.rabbit.attack=Angel Bunny growls
+  subtitles.entity.rabbit.death=Angel Bunny dies
+  subtitles.entity.rabbit.hurt=Angel Bunny whines
+  subtitles.entity.rabbit.jump=Angel Bunny hops
+
+  entity.slime.name=Smooze
+  item.spawn_egg.entity.slime.name=Smooze Spawn Egg
+  subtitles.entity.slime.attack=Smooze attacks
+  subtitles.entity.slime.death=Smooze dies
+  subtitles.entity.slime.hurt=Smooze hurts
+  subtitles.entity.slime.squish=Smooze squishes
+
+  entity.skeleton.name=Skelepone
+  item.skeleton_skull.name=Skelepone Skull
+  item.spawn_egg.entity.skeleton.name=Skelepone Spawn Egg
+  subtitles.entity.skeleton.ambient=Skelepone rattles
+  subtitles.entity.skeleton.death=Skelepone dies
+  subtitles.entity.skeleton.hurt=Skelepone hurts
+  subtitles.entity.skeleton.shoot=Skelepone shoots
+
+  entity.skeleton_horse.name=Skelepone Horse
+  item.spawn_egg.entity.skeleton_horse.name=Skelepone Horse Spawn Egg
+  subtitles.entity.skeleton_horse.ambient=Skelepone Horse cries
+  subtitles.entity.skeleton_horse.death=Skelepone Horse dies
+  subtitles.entity.skeleton_horse.hurt=Skelepone Horse hurts
+  subtitles.entity.skeleton_horse.swim=Skelepone Horse swims
+
+  entity.vex.name=Breezie
+  item.spawn_egg.entity.vex.name=Breezie Spawn Egg
+  subtitles.entity.vex.ambient=Breezie vexes
+  subtitles.entity.vex.charge=Breezie shrieks
+  subtitles.entity.vex.death=Breezie dies
+  subtitles.entity.vex.hurt=Breezie hurts
+
+  item.spawn_egg.entity.villager.name=Pony Spawn Egg
+  subtitles.entity.villager.ambient=Pony giggles
+  subtitles.entity.villager.death=Pony dies
+  subtitles.entity.villager.hurt=Pony hurts
+  subtitles.entity.villager.no=Pony disagrees
+  subtitles.entity.villager.trade=Pony trades
+  subtitles.entity.villager.yes=Pony agrees
+
+  entity.witch.name=Zecora
+  item.spawn_egg.entity.witch.name=Zecora Spawn Egg
+
+  entity.wither.name=Discord
+  entity.wither_skull.name=Discord's Head
+  subtitles.entity.wither.ambient=Discord laughs
+  subtitles.entity.wither.death=Discord will return
+  subtitles.entity.wither.hurt=Discord squirms
+  subtitles.entity.wither.shoot=Discord attacks
+  subtitles.entity.wither.spawn=Discord released
+
+  entity.wither_skeleton.name=Discorded Skelepone
+  item.spawn_egg.entity.wither_skeleton.name=Discorded Skelepone Spawn Egg
+  subtitles.entity.wither_skeleton.ambient=Discorded Skelepone rattles
+  subtitles.entity.wither_skeleton.death=Discorded Skelepone dies
+  subtitles.entity.wither_skeleton.hurt=Discorded Skelepone hurts
+
+  entity.zombie.name=Zompony
+  item.spawn_egg.entity.zombie.name=Zompony Spawn Egg
+  item.zombie_head=Zompony Head
+  subtitles.entity.zombie.ambient=Zompony groans
+  subtitles.entity.zombie.converted_to_drowned=Zompony converted to Drowned
+  subtitles.entity.zombie.death=Zompony dies
+  subtitles.entity.zombie.hurt=Zompony hurts
+  subtitles.entity.zombie.infect=Zompony infects
+
+  entity.zombie_pigman.name=Zompig
+  item.spawn_egg.entity.zombie_pigman.name=Zompig Spawn Egg
+  subtitles.entity.zombie_pigman.ambient=Zompig grunts
+  subtitles.entity.zombie_pigman.angry=Zompig angers
+  subtitles.entity.zombie_pigman.death=Zompig dies
+  subtitles.entity.zombie_pigman.hurt=Zompig hurts
+
+  entity.zombie_villager.name=Zompony Villager
+  item.spawn_egg.entity.zombie_villager.name=Zompony Villager Spawn Egg
+  subtitles.entity.zombie_villager.ambient=Zompony Villager groans
+  subtitles.entity.zombie_villager.converted=Zompony vociferates
+  subtitles.entity.zombie_villager.cure=Zompony snuffles
+  subtitles.entity.zombie_villager.death=Zompony Villager dies
+  subtitles.entity.zombie_villager.hurt=Zompony Villager hurts
+
+  entity.villager.name=Background Pony
+  entity.villager_v2.name=Background Pony
+  entity.villager.nitwit=Nopony
+
+  entity.xp_bottle.name=Thrown Bottle of Friendship
+
+  entity.splash_potion.name=Bubbling Cider
+  entity.lingering_potion.name=Fizzing Cider
+
+  potion.emptyPotion.splash.name=Bubbling Water Bottle
+  potion.emptyPotion.linger.name=Fizzing Water Bottle
+
+  item.potion=Cider
+  item.splash_potion=Bubbling Cider
+  item.lingering_potion=Fizzing Cider
+
+  potion.awkward.name=Awkward Cider
+  potion.awkward.splash.name=Bubbling Awkward Cider
+  potion.awkward.linger.name=Fizzing Awkward Cider
+
+  item.potion.effect.empty=Uncraftable Cider
+  item.splash_potion.effect.empty=Bubbling Uncraftable Cider
+  item.lingering_potion.effect.empty=Fizzing Uncraftable Cider
+
+  potion.fireResistance.name=Cider of Fire Resistance
+  potion.fireResistance.splash.name=Bubbling Cider of Fire Resistance
+  potion.fireResistance.linger.name=Fizzing Potion of Fire Resistance
+
+  potion.harm.name=Harmful Cider
+  potion.harm.splash.name=Bubbling Harmful Cider
+  potion.harm.linger.name=Fizzing Harmful Cider
+
+  potion.heal.name=Healing Cider
+  potion.heal.splash.name=Bubbling Healing Cider
+  potion.heal.linger.name=Fizzing Healing Cider
+
+  potion.invisibility.name=Invisible Cider
+  potion.invisibility.splash.name=Bubbling Invisible Cider
+  potion.invisibility.linger.name=Fizzing Invisible Cider
+
+  potion.jump.name=Leaping Cider
+  potion.jump.splash.name=Bubbling Leaping Cider
+  potion.jump.linger.name=Fizzing Leaping Cider
+
+  item.potion.effect.levitation=Cider of Levitation
+  item.splash_potion.effect.levitation=Bubbling Cider of Levitation
+  item.lingering_potion.effect.levitation=Fizzing Cider of Levitation
+
+  item.potion.effect.luck=Lucky Cider
+  item.splash_potion.effect.luck=Bubbling Lucky Cider
+  item.lingering_potion.effect.luck=Fizzing Lucky Cider
+
+  potion.mundane.name=Mundane Cider
+  potion.mundane.splash.name=Bubbling Mundane Cider
+  potion.mundane.linger.name=Fizzing Mundane Cider
+  potion.mundane.extended.name=Long Mundane Cider
+  potion.mundane.extended.splash.name=Long Bubbling Mundane Cider
+  potion.mundane.extended.linger.name=Long Fizzing Mundane Cider
+
+  potion.nightVision.name=Cider of Night Vision
+  potion.nightVision.splash.name=Bubbling Cider of Night Vision
+  potion.nightVision.linger.name=Fizzing Cider of Night Vision
+
+  potion.poison.name=Poisoned Cider
+  potion.poison.splash.name=Bubbling Poisoned Cider
+  potion.poison.linger.name=Fizzing Poisoned Cider
+
+  potion.regeneration.name=Cider of Regeneration
+  potion.regeneration.splash.name=Bubbling Cider of Regeneration
+  potion.regeneration.linger.name=Fizzing Cider of Regeneration
+
+  potion.moveSlowdown.name=Slow Cider
+  potion.moveSlowdown.splash.name=Bubbling Slow Cider
+  potion.moveSlowdown.linger.name=Fizzing Slow Cider
+
+  potion.slowFalling.name=Cider of Slow Falling
+  potion.slowFalling.splash.name=Bubbling Cider of Slow Falling
+  potion.slowFalling.linger.name=Fizzing Cider of Slow Falling
+
+  potion.damageBoost.name=Strong Cider
+  potion.damageBoost.splash.name=Bubbling Strong Cider
+  potion.damageBoost.linger.name=Fizzing Strong Cider
+
+  potion.moveSpeed.name=Swift Cider
+  potion.moveSpeed.splash.name=Bubbling Swift Cider
+  potion.moveSpeed.linger.name=Fizzing Swift Cider
+
+  potion.thick.name=Thick Cider
+  potion.thick.splash.name=Bubbling Thick Cider
+  potion.thick.linger.name=Fizzing Thick Cider
+
+  potion.turtleMaster.name=Turtle Cider
+  potion.turtleMaster.splash.name=Bubbling Turtle Cider
+  potion.turtleMaster.linger.name=Fizzing Turtle Cider
+
+  potion.waterBreathing.name=Cider of Water Breathing
+  potion.waterBreathing.splash.name=Bubbling Cider of Water Breathing
+  potion.waterBreathing.linger.name=Fizzing Cider of Water Breathing
+
+  potion.weakness.name=Weak Cider
+  potion.weakness.splash.name=Bubbling Weak Cider
+  potion.weakness.linger.name=Fizzing Weak Cider
+
+  potion.wither=Discorded
+  potion.wither.name=Discorded Cider
+  potion.wither.splash.name=Bubbling Discorded Cider
+  potion.wither.linger.name=Fizzing Discorded Cider
+
+  stat.talkedToVillager=Talked to Ponies
+  stat.tradedWithVillager=Traded with Ponies
+
+  advancements.adventure.sleep_in_bed.title=Luna's Delight
+  advancements.adventure.sleep_in_bed.description=Sleep a good night
+  advancements.adventure.trade.description=Successfully trade with a Pony
+  advancements.adventure.two_birds_one_arrow.description=Kill two Windigos with a piercing arrow
+  achievement.snipeSkeleton.desc=Kill a Skelepone from at least 50 meters away
+
+  advancements.story.cure_zombie_villager.title=Best Friends
+  advancements.story.cure_zombie_villager.description=Make friends with a Zompony Villager
+  advancements.story.enchant_item.title=Alicorn Mage
+
+  achievement.blaze_rod=Take that Larson!
+  achievement.blaze_rod.desc=Relieve a Princess of her cane
+  achievement.potion=Apple Family Tradition
+  achievement.potion.desc=Brew some cider
+  advancements.nether.all_potions.title=Apple Apple Apple Apple...
+  advancements.nether.all_potions.description=Have every cider effect applied at the same time
+  advancements.nether.get_wither_skull.title=Spooky Scary Skeleponies
+  advancements.nether.get_wither_skull.description=Obtain a Discorded Skelepone's skull
+  achievement.spawnWither=Uh oh
+  achievement.spawnWither.desc=Unleash Discord
+  achievement.killWither=Yay
+  achievement.killWither.desc=Defeat Discord
+
+  death.attack.wither=%1$s devolved into chaos
+  death.attack.wither.player=%1$s devolved into chaos whilst fighting %2$s
+
+  advMode.nearestPlayer=@p = Nearest pony
+  advMode.randomPlayer=@r = Random pony
+  advMode.allPlayers=@a = All ponies
+  argument.entity.options.gamemode.description=Ponies with gamemode
+  argument.entity.options.advancements.description=Ponies with advancements
+  commands.ability.description=Sets a pony's ability.
+  commands.gamemode.description=Sets a pony's game mode.
+  commands.achievement.description=Gives or removes an achievement from a pony
+  commands.deop.description=Revokes operator status from a pony
+  commands.ban.description=Adds pony to banlist.
+  commands.ban.failed=Could not ban pony called %1$s
+  commands.ban.success=Banned pony called %1$s
+  commands.autocomplete.a=all ponies
+  commands.autocomplete.p=closest pony
+  commands.autocomplete.r=random pony
+  commands.bossbar.get.players=Custom bossbar [%1$s] has %2$s ponies currently online: %3$s
+  commands.bossbar.get.players.none=Custom bossbar [%1$s] has no ponies currently online
+  commands.bossbar.get.players.one=Custom bossbar [%1$s] has 1 pony currently online: %2$s
+  commands.enchant.description=Adds an enchantment to a pony's selected item.
+  commands.gamemode.description=Sets a pony's game mode.
+  commands.getlocalplayername.description=Returns the local pony name.
+  commands.kick.description=Kicks a pony from the server.
+  commands.kick.description.edu=Removes a pony from the game.
+  commands.kick.no.player=Please provide the name of the pony you want to kick
+  commands.kick.not.found=Could not find pony called %1$s
+  commands.list.description=Lists ponys on the server.
+  commands.op.description=Grants operator status to a pony.
+  commands.ops.set.success=Succeeded in setting operator level for pony %s.
+  commands.permissions.set.failed=Could not set permission level %s for pony %s.
+  commands.players.list=There are %1$d/%2$d ponies online:
+  commands.playsound.playerTooFar=Pony %1$s is too far away to hear the sound
+  commands.position.description=Toggles on/off coordinates for pony.
+  commands.scoreboard.players.nameNotFound=A pony name must be given.
+  commands.scoreboard.players.list.count=Showing %1$d tracked ponies on the scoreboard:
+  commands.scoreboard.players.list.empty=There are no tracked ponies on the scoreboard
+  commands.scoreboard.players.list.player.empty=Pony %1$s has no scores recorded
+  commands.scoreboard.players.reset.success=Reset scores of pony %1$s
+  commands.scoreboard.players.resetscore.success=Reset score %1$s of pony %2$s
+  commands.scoreboard.teams.empty.success=Removed all %1$d pony(ies) from team %2$s
+  commands.scoreboard.teams.join.failure=Could not add %1$d pony(ies) to team %2$s: %3$s
+  commands.scoreboard.teams.join.success=Added %1$d pony(ies) to team %2$s: %3$s
+  commands.scoreboard.teams.leave.failure=Could not remove %1$d pony(ies) from their teams: %2$
+  commands.scoreboard.teams.leave.success=Removed %1$d pony(ies) from their teams: %2$s
+  commands.scoreboard.teams.list.entry=- %1$s: '%2$s' has %3$d ponies
+  commands.scoreboard.teams.list.player.count=Showing %1$d pony(ies) in team %2$s:
+  commands.scoreboard.teams.list.player.empty=Team %1$s has no ponies
+  commands.screenshake.description=Applies shaking to the ponies' camera with a specified intensity and duration.
+  commands.screenshake.success=Sent a request to the following ponies for their camera to shake: %s
+  commands.screenshake.successStop=Stopping camera shake for the following ponies: %s
+  commands.setmaxplayers.description=Sets the maximum number of ponies for this game session.
+  commands.setmaxplayers.success=Set max ponies to %1$d.
+  commands.setmaxplayers.success.lowerbound=(Bound to current pony count)
+  commands.spreadplayers.failure.players=Could not spread %1$s ponies around %2$s,%3$s (too many ponies for space - try using spread of at most %4$s)
+  commands.spreadplayers.failure.players.unsafe=Could not spread %1$s ponies around %2$s,%3$s (no safe locations found after %4$s attempts)
+  commands.spreadplayers.failure.teams=Could not spread %1$s teams around %2$s,%3$s (too many ponies for space - try using spread of at most %4$s)
+  commands.spreadplayers.info.players=(Average distance between ponies is %1$s blocks apart after %2$s iterations)
+  commands.spreadplayers.spreading.players=Spreading %1$s ponies %2$s blocks around %3$s,%4$s (min %5$s blocks apart)
+  commands.spreadplayers.success.players=Successfully spread %1$s ponies around %2$s,%3$s
+  commands.tellraw.description=Sends a JSON message to ponies.
+  commands.unban.success=Unbanned pony called %1$s
+  commands.allowlist.list=There are %1$d (out of %2$d seen) allowlisted ponies:
+  commands.xp.description=Adds or removes pony experience.
+  commands.xp.failure.widthdrawXp=Cannot give a pony negative experience points
+
+  commands.clear.success.multiple=Removed %s items from %s ponies
+  commands.clear.test.multiple=Found %s matching items on %s ponies
+  commands.experience.add.points.success.multiple=Gave %s experience points to %s ponies
+  commands.experience.add.levels.success.multiple=Gave %s experience levels to %s ponies
+  commands.experience.set.points.success.multiple=Set %s experience points on %s ponies
+  commands.experience.set.levels.success.multiple=Set %s experience levels on %s ponies
+  commands.give.success.multiple=Gave %s %s to %s ponies
+  commands.playsound.success.multiple=Played sound %s to %s ponies
+  commands.list.players=There are %s of a max %s ponies online=%s
+  commands.bossbar.set.players.success.none=Custom bossbar %s no longer has any ponies
+  commands.bossbar.set.players.success.some=Custom bossbar %s now has %s ponies=%s
+  commands.bossbar.get.players.none=Custom bossbar %s has no ponies currently online
+  commands.bossbar.get.players.some=Custom bossbar %s has %s ponies currently online=%s
+  commands.recipe.give.success.multiple=Unlocked %s recipes for %s ponies
+  commands.recipe.take.success.multiple=Took %s recipes from %s ponies
+  commands.whitelist.none=There are no whitelisted ponies
+  commands.whitelist.list=There are %s whitelisted ponies=%s
+  commands.spawnpoint.success.multiple=Set spawn point to %s %s %s for %s ponies
+  commands.spreadplayers.success.entities=Spread %s ponies around %s %s with an average distance of %s blocks apart
+  commands.banip.info=This ban affects %s ponies=%s
+  commands.title.cleared.multiple=Cleared titles for %s ponies
+  commands.title.reset.multiple=Reset title options for %s ponies
+  commands.title.show.title.multiple=Showing new title for %s ponies
+  commands.title.show.subtitle.multiple=Showing new subtitle for %s ponies
+  commands.title.show.actionbar.multiple=Showing new actionbar title for %s ponies
+  commands.title.times.multiple=Changed title display times for %s ponies
+  argument.player.entities=Only ponies may be affected by this command but the provided selector includes entities
+  commands.bossbar.set.players.unchanged=Nothing changed. Those ponies are already on the bossbar with nobody to add or remove
+  clear.failed.multiple=No items were found on %s ponies
+ 
+  tipped_arrow.effect.wither=Discorded Arrow
+  progressScreen.title.connectingLAN=Connecting to multipony game
+  tips.game.8=Use Roc pelts to repair your Changling wings.
+  tips.game.13=Trade with villagers to obtain food, tools, and even treasure maps!
+  tips.game.14=Did you know you can hold a map in your off-hoof?
+  tips.game.22=Changeling wings can be used to glide, find them in End City ships!
+  tips.game.24=Forks of Friendship are dropped by the Drowned, and can be held or thrown.
+  tips.game.27=Creepers that are killed by skelepone's arrows have a chance of dropping music discs.
+  tips.game.28=Ponies like YOU make Marketplace content!
+  tips.game.38=Taming a skelepone horse doesn't require a saddle.
+  tips.game.42=Zomponies turn into Drowned if they sink underwater.
+  tips.game.44=Using fireworks boosts Changeling wings' speed in mid air. Just... make sure they don't explode, otherwise it'll hurt BADLY!
+  tips.game.46=Do ponies actually read these?
+  tips.game.56=When digging straight up, place a torch at your feet to break any sand or gravel that could potentially fall down on you.
+  splitscreen.joinPrompt=Join as Pony %s
+  splitscreen.unavailable.toastMessage=A second pony can't join right now.
+  map.locatorMap=Map that Shows Other Ponies

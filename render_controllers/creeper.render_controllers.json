@@ -1,0 +1,65 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.creeper": {
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Texture.default" ],
+      "overlay_color": {
+          "r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+      }
+    },
+    "controller.render.creeper.rand": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.skin",
+            "Texture.skin2",
+            "Texture.skin3",
+            "Texture.skin4",
+            "Texture.skin5",
+            "Texture.skin6",
+            "Texture.skin7",
+            "Texture.skin8",
+            "Texture.skin9",
+            "Texture.skin10",
+            "Texture.skin11",
+            "Texture.skin12",
+            "Texture.skin13",
+            "Texture.skin14",
+            "Texture.skin15",
+            "Texture.skin16",
+            "Texture.skin17",
+            "Texture.skin18",
+            "Texture.skin19",
+            "Texture.skin20",
+            "Texture.skin21",
+            "Texture.skin22",
+            "Texture.skin23",
+            "Texture.skin24",
+            "Texture.skin25",
+            "Texture.skin26",
+            "Texture.skin27",
+            "Texture.skin28",
+            "Texture.skin29",
+            "Texture.skin30",
+            "Texture.skin31",
+            "Texture.skin32"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[variable.rand]" ],
+      "overlay_color": {
+          "r": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "g": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "b": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0",
+          "a": "((variable.flash == 0.0) || (query.swelling_dir < 0.0)) ? this : 1.0"
+      }
+    }
+  }
+}

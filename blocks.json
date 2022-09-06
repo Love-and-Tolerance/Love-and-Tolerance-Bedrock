@@ -1,0 +1,140 @@
+{
+   "beehive" : {
+      "textures" : {
+         "down" : "beehive_bottom",
+         "east" : "beehive_side",
+         "north" : "beehive_side",
+         "south" : "beehive_front",
+         "up" : "beehive_top",
+         "west" : "beehive_side"
+      }
+   },
+   "jukebox_empty" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_empty"
+      }
+   },
+   "jukebox_11" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_11"
+      }
+   },
+   "jukebox_13" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_13"
+      }
+   },
+   "jukebox_5" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_5"
+      }
+   },
+   "jukebox_blocks" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_blocks"
+      }
+   },
+   "jukebox_cat" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_cat"
+      }
+   },
+   "jukebox_chirp" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_chirp"
+      }
+   },
+   "jukebox_far" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_far"
+      }
+   },
+   "jukebox_mall" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_mall"
+      }
+   },
+   "jukebox_mellohi" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_mellohi"
+      }
+   },
+   "jukebox_otherside" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_otherside"
+      }
+   },
+   "jukebox_pigstep" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_pigstep"
+      }
+   },
+   "jukebox_stal" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_stal"
+      }
+   },
+   "jukebox_strad" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_strad"
+      }
+   },
+   "jukebox_wait" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_wait"
+      }
+   },
+   "jukebox_ward" : {
+      "sound" : "wood",
+      "textures" : {
+         "down" : "jukebox_side",
+         "side" : "jukebox_side",
+         "up" : "jukebox_ward"
+      }
+   }
+}
