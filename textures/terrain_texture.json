@@ -4,6 +4,50 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
   "texture_data": {
+    "mud": {
+      "textures": {
+        "variations": [
+          {"path":"textures/blocks/mud"},
+          {"path":"textures/blocks/mud_2"},
+          {"path":"textures/blocks/mud_3"},
+          {"path":"textures/blocks/mud_4"},
+          {"path":"textures/blocks/mud_5"},
+          {"path":"textures/blocks/mud_6"}
+        ]
+      }
+    },
+    "mangrove_leaves": {
+      "textures": {
+        "variations": [
+          "path":"textures/blocks/mangrove_leaves",
+          "path":"textures/blocks/mangrove_leaves_mirrored"
+        ]
+      }
+    },
+    "muddy_mangrove_roots_side": {
+      "textures": {
+        "variations": [
+          {"path":"textures/blocks/muddy_mangrove_roots_side"},
+          {"path":"textures/blocks/muddy_mangrove_roots_side_2"},
+          {"path":"textures/blocks/muddy_mangrove_roots_side_3"},
+          {"path":"textures/blocks/muddy_mangrove_roots_side_4"},
+          {"path":"textures/blocks/muddy_mangrove_roots_side_5"},
+          {"path":"textures/blocks/muddy_mangrove_roots_side_6"}
+        ]
+      }
+    },
+    "muddy_mangrove_roots_top": {
+      "textures": {
+        "variations": [
+          {"path":"textures/blocks/muddy_mangrove_roots_top"},
+          {"path":"textures/blocks/muddy_mangrove_roots_top_2"},
+          {"path":"textures/blocks/muddy_mangrove_roots_top_3"},
+          {"path":"textures/blocks/muddy_mangrove_roots_top_4"},
+          {"path":"textures/blocks/muddy_mangrove_roots_top_5"},
+          {"path":"textures/blocks/muddy_mangrove_roots_top_6"}
+        ]
+      }
+    },
     "amethyst_block": {
       "textures": {
         "variations": [
