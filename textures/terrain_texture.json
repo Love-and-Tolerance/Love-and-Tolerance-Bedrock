@@ -4,6 +4,16 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
   "texture_data": {
+    "sculk_vein": {
+      "textures": {
+        "variations": [
+          {"path":"textures/blocks/sculk_vein"},
+          {"path":"textures/blocks/sculk_vein_2"},
+          {"path":"textures/blocks/sculk_vein_3"},
+          {"path":"textures/blocks/sculk_vein_4"}
+        ]
+      }
+    },
     "mud": {
       "textures": {
         "variations": [
@@ -101,12 +111,6 @@
     },
     "beehive_bottom" : {
       "textures" : [ "textures/blocks/beehive_bottom" ]
-    },
-    "beehive_front" : {
-      "textures" : [
-        "textures/blocks/beehive_front",
-        "textures/blocks/beehive_front_honey"
-      ]
     },
     "clay": {
       "textures": {
