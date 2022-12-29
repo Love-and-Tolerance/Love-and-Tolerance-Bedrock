@@ -14,29 +14,25 @@
   {
     "flipbook_texture": "textures/blocks/sculk_vein",
     "atlas_tile": "sculk_vein",
-	"atlas_index": 0,
-    "atlas_tile_variant": 0,
+    "atlas_tile_variant": 1,
     "ticks_per_frame": 24
   },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_2",
     "atlas_tile": "sculk_vein",
-	"atlas_index": 1,
-    "atlas_tile_variant": 1,
+    "atlas_tile_variant": 2,
     "ticks_per_frame": 24
   },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_3",
     "atlas_tile": "sculk_vein",
-	"atlas_index": 2,
-    "atlas_tile_variant": 2,
+    "atlas_tile_variant": 3,
     "ticks_per_frame": 24
   },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_4",
     "atlas_tile": "sculk_vein",
-	"atlas_index": 3,
-    "atlas_tile_variant": 3,
+    "atlas_tile_variant": 4,
     "ticks_per_frame": 24
   },
   {
