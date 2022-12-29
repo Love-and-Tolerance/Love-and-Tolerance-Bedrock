@@ -1,17 +1,5 @@
 [
   {
-    "flipbook_texture": "textures/blocks/fire_0",
-    "atlas_tile": "fire_0",
-    "frames": [ 6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5 ],
-    "ticks_per_frame": 2
-  },
-  {
-    "flipbook_texture": "textures/blocks/fire_1",
-    "atlas_tile": "fire_1",
-    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
-    "ticks_per_frame": 2
-  },
-  {
     "flipbook_texture": "textures/blocks/sculk_vein",
     "atlas_tile": "sculk_vein",
     "atlas_tile_variant": 1,
@@ -38,13 +26,13 @@
   {
     "flipbook_texture": "textures/blocks/fire_0",
     "atlas_tile": "fire_0",
-    "frames": [ 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 ],
+    "frames": [ 6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5 ],
     "ticks_per_frame": 2
   },
   {
     "flipbook_texture": "textures/blocks/fire_1",
     "atlas_tile": "fire_1",
-    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31 ],
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ],
     "ticks_per_frame": 2
   },
   {
