@@ -336,10 +336,10 @@
     "web": {
       "textures": {
         "variations": [
-          {"path":"textures/blocks/cobweb"},
-          {"path":"textures/blocks/cobweb_2"},
-          {"path":"textures/blocks/cobweb_3"},
-          {"path":"textures/blocks/cobweb_4"}
+          {"path":"textures/blocks/web"},
+          {"path":"textures/blocks/web_2"},
+          {"path":"textures/blocks/web_3"},
+          {"path":"textures/blocks/web_4"}
         ]
       }
     },
