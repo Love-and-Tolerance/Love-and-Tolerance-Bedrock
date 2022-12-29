@@ -4,6 +4,25 @@
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
   "texture_data": {
+    "wood": {
+      "textures": [
+        "textures/blocks/log_oak",
+        "textures/blocks/stripped_oak_log",
+        "textures/blocks/log_spruce",
+        "textures/blocks/stripped_spruce_log",
+        "textures/blocks/log_birch",
+        "textures/blocks/stripped_birch_log",
+        "textures/blocks/log_jungle",
+        "textures/blocks/stripped_jungle_log",
+        "textures/blocks/log_acacia",
+        "textures/blocks/stripped_acacia_log",
+        "textures/blocks/log_big_oak",
+        "textures/blocks/stripped_dark_oak_log"
+      ]
+    },
+    "missing_tile": {
+      "textures": "textures/blocks/missing_tile"
+    },
     "log_side": {
       "textures": [
         {
@@ -532,6 +551,18 @@
           {"path":"textures/blocks/endframe_side_4"},
           {"path":"textures/blocks/endframe_side_5"},
           {"path":"textures/blocks/endframe_side_6"}
+        ]
+      }
+    },
+    "endframe_bottom": {
+      "textures": {
+        "variations": [
+          {"path":"textures/blocks/end_stone"},
+          {"path":"textures/blocks/end_stone_2"},
+          {"path":"textures/blocks/end_stone_3"},
+          {"path":"textures/blocks/end_stone_4"},
+          {"path":"textures/blocks/end_stone_5"},
+          {"path":"textures/blocks/end_stone_6"}
         ]
       }
     },
@@ -1233,10 +1264,10 @@
       "textures" : [
         {
           "variations": [
-            {"path":"textures/blocks/poppy"},
-            {"path":"textures/blocks/poppy_2"},
-            {"path":"textures/blocks/poppy_3"},
-            {"path":"textures/blocks/poppy_4"}
+            {"path":"textures/blocks/flower_rose"},
+            {"path":"textures/blocks/flower_rose_2"},
+            {"path":"textures/blocks/flower_rose_3"},
+            {"path":"textures/blocks/flower_rose_4"}
           ]
         },
         "textures/blocks/flower_blue_orchid",
@@ -3294,10 +3325,10 @@
     "yellow_flower" : {
       "textures": {
         "variations": [
-          {"path":"textures/blocks/dandelion"},
-          {"path":"textures/blocks/dandelion_2"},
-          {"path":"textures/blocks/dandelion_3"},
-          {"path":"textures/blocks/dandelion_4"}
+          {"path":"textures/blocks/flower_dandelion"},
+          {"path":"textures/blocks/flower_dandelion_2"},
+          {"path":"textures/blocks/flower_dandelion_3"},
+          {"path":"textures/blocks/flower_dandelion_4"}
         ]
       }
     },
