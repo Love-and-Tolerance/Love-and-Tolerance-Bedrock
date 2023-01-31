@@ -1,16 +1,32 @@
 {
-  "num_mip_levels": 4,
-  "padding": 8,
   "resource_pack_name": "vanilla",
   "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
   "texture_data": {
     "wood": {
       "textures": [
-        "textures/blocks/log_oak",
+        {
+          "variations": [ 
+            {"path":"textures/blocks/log_oak"},
+            {"path":"textures/blocks/log_oak_2"},
+            {"path":"textures/blocks/log_oak_3"},
+            {"path":"textures/blocks/log_oak_4"}
+          ]
+        },
         "textures/blocks/stripped_oak_log",
         "textures/blocks/log_spruce",
         "textures/blocks/stripped_spruce_log",
-        "textures/blocks/log_birch",
+        {
+          "variations": [
+            {"path":"textures/blocks/log_birch"},
+            {"path":"textures/blocks/log_birch_2"},
+            {"path":"textures/blocks/log_birch_3"},
+            {"path":"textures/blocks/log_birch_4"},
+            {"path":"textures/blocks/log_birch_5"},
+            {"path":"textures/blocks/log_birch_6"}
+          ]
+        },
         "textures/blocks/stripped_birch_log",
         "textures/blocks/log_jungle",
         "textures/blocks/stripped_jungle_log",
@@ -138,8 +154,8 @@
     "mangrove_leaves": {
       "textures": {
         "variations": [
-          "path":"textures/blocks/mangrove_leaves",
-          "path":"textures/blocks/mangrove_leaves_mirrored"
+          {"path":"textures/blocks/mangrove_leaves"},
+          {"path":"textures/blocks/mangrove_leaves_mirrored"}
         ]
       }
     },
@@ -219,7 +235,10 @@
       }
     },
     "beehive_bottom" : {
-      "textures" : [ "textures/blocks/beehive_bottom" ]
+      "textures": [
+        "textures/blocks/beehive_bottom",
+        "textures/blocks/beehive_bottom"
+      ]
     },
     "clay": {
       "textures": {
@@ -3360,57 +3379,6 @@
           ]
         }
       ]
-    },
-    "jukebox_top" : {
-      "textures" : "textures/blocks/jukebox_top"   
-    },
-    "jukebox_empty" : {
-      "textures" : "textures/blocks/jukebox_none"
-    },
-    "jukebox_11" : {
-      "textures" : "textures/blocks/jukebox_11"
-    },
-    "jukebox_13" : {
-         "textures" : "textures/blocks/jukebox_13"
-    },
-    "jukebox_5" : {
-      "textures" : "textures/blocks/jukebox_5"
-    },
-    "jukebox_blocks" : {
-      "textures" : "textures/blocks/jukebox_blocks"
-    },
-    "jukebox_cat" : {
-      "textures" : "textures/blocks/jukebox_cat"
-    },
-    "jukebox_chirp" : {
-      "textures" : "textures/blocks/jukebox_chirp"
-    },
-    "jukebox_far" : {
-      "textures" : "textures/blocks/jukebox_far"
-    },
-    "jukebox_mall" : {
-      "textures" : "textures/blocks/jukebox_mall"
-    },
-    "jukebox_mellohi" : {
-      "textures" : "textures/blocks/jukebox_mellohi"
-    },
-    "jukebox_otherside" : {
-      "textures" : "textures/blocks/jukebox_otherside"
-    },
-    "jukebox_pigstep" : {
-      "textures" : "textures/blocks/jukebox_pigstep"
-    },
-    "jukebox_stal" : {
-      "textures" : "textures/blocks/jukebox_stal"
-    },
-    "jukebox_strad" : {
-      "textures" : "textures/blocks/jukebox_strad"
-    },
-    "jukebox_wait" : {
-      "textures" : "textures/blocks/jukebox_wait"
-    },
-    "jukebox_ward" : {
-      "textures" : "textures/blocks/jukebox_ward"
     }
   }
 }
