@@ -198,26 +198,8 @@
         "textures/blocks/barrel_top",
         {
           "variations": [
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open"},
-            {"path":"textures/blocks/barrel_top_open_ponk"},
-            {"path":"textures/blocks/barrel_top_open_ponk"},
-            {"path":"textures/blocks/barrel_top_open_ponk"}
+            {"path":"textures/blocks/barrel_top_open", "weight":85},
+            {"path":"textures/blocks/barrel_top_open_ponk", "weight":15}
           ]
         }
       ]
