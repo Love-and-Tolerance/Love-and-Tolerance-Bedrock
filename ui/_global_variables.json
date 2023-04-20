@@ -1,7 +1,7 @@
 {
   "$book_page_number_color": [ 0.92, 0.8756, 0.7289 ],
   "$trade_tier_name_locked_color": [ 1.0, 1.0, 1.0 ],
-  "$trade_lock_color": [ 0.0, 0.0, 0.0 ],
+  "$trade_lock_color": [ 0.36, 0.24, 0.0 ],
   "$light_border_default_color": [ 0.4117, 0.3294, 0.2 ],
   "$light_border_hover_color": [ 1.0, 1.0, 1.0 ],
   "$light_border_pressed_color": [ 1.0, 1.0, 1.0 ],
