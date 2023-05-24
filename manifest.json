@@ -26,17 +26,5 @@
         0
       ]
     }
-  ],
-  "subpacks":  [
-    {
-      "folder_name":  "minelp",
-      "memory_tier": 0,
-      "name":  "Mine Little Pony"
-    },
-    {
-      "folder_name":  "default",
-      "memory_tier": 0,
-      "name":  "Default"
-    }
   ]
 }
