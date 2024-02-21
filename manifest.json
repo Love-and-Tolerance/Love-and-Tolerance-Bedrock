@@ -26,5 +26,17 @@
         0
       ]
     }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "optifine_bed",
+      "name": "3D Bed",
+      "memory_tier": 0
+    },
+    {
+      "folder_name": "default_bed",
+      "name": "Default Bed",
+      "memory_tier": 0
+    }
   ]
 }

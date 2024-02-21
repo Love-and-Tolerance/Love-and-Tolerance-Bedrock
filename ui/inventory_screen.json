@@ -1,6 +1,11 @@
 {
   "namespace": "crafting",
-  
+
+  //---------------------------------------------------------------------------
+  // Crafting panels, 2x2 and 3x3
+  //---------------------------------------------------------------------------
+
+  // 2x2 grid image variations
   "crafting_input_grid_item1@crafting.inventory_container_item": {
     "$item_collection_name": "crafting_input_items",
     "$background_images": "crafting.crafting_container_cell_images1",
@@ -29,6 +34,7 @@
     "$button_ref": "crafting.inventory_container_slot_button"
   },
 
+  // 3x3 grid image variations
   "crafting_input_grid_item_alt@crafting.inventory_container_item_alt": {
     "$item_collection_name": "crafting_input_items",
     "$background_images": "crafting.crafting_container_cell_images_alt",
@@ -91,7 +97,8 @@
     "$item_renderer_binding_condition": "always",
     "$button_ref": "crafting.inventory_container_slot_button"
   },
-  
+
+  // Grids
   "crafting_grid_3x3": {
     "type": "grid",
     "size": [ 54, 54 ],

@@ -1,7 +1,102 @@
 {
   "namespace": "crafting_pocket",
-  
-  "crafting_input_grid_item_alt@crafting.inventory_container_item_alt5": {
+
+  //---------------------------------------------------------------------------
+  // Crafting panels, 2x2 and 3x3
+  //---------------------------------------------------------------------------
+
+  // 2x2 grid image variations
+  "crafting_input_grid_item1@crafting.inventory_container_item1": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$durability_bar_size": [ 18, 1 ],
+    "$durability_bar_offset": [ 0, 8 ],
+    "$background_images": "crafting.crafting_container_cell_images1",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item2@crafting.inventory_container_item2": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$durability_bar_size": [ 18, 1 ],
+    "$durability_bar_offset": [ 0, 8 ],
+    "$background_images": "crafting.crafting_container_cell_images2",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item3@crafting.inventory_container_item3": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$durability_bar_size": [ 18, 1 ],
+    "$durability_bar_offset": [ 0, 8 ],
+    "$background_images": "crafting.crafting_container_cell_images3",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item4@crafting.inventory_container_item4": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$durability_bar_size": [ 18, 1 ],
+    "$durability_bar_offset": [ 0, 8 ],
+    "$background_images": "crafting.crafting_container_cell_images4",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+
+  // 3x3 grid image variations
+  "crafting_input_grid_item_alt@crafting.inventory_container_item_alt": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt2@crafting.inventory_container_item_alt2": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt2",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt3@crafting.inventory_container_item_alt3": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt3",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt4@crafting.inventory_container_item_alt4": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt4",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt5@crafting.inventory_container_item_alt5": {
     "$item_collection_name": "crafting_input_items",
     "size": [ 28, 28 ],
     "$cell_image_size": [ 28, 28 ],
@@ -11,7 +106,48 @@
     "$item_renderer_binding_condition": "always",
     "$button_ref": "crafting.inventory_container_slot_button"
   },
-  
+  "crafting_input_grid_item_alt6@crafting.inventory_container_item_alt6": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt6",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt7@crafting.inventory_container_item_alt7": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt7",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt8@crafting.inventory_container_item_alt8": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt8",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+  "crafting_input_grid_item_alt9@crafting.inventory_container_item_alt9": {
+    "$item_collection_name": "crafting_input_items",
+    "size": [ 28, 28 ],
+    "$cell_image_size": [ 28, 28 ],
+    "$item_renderer_panel_size": [ 28, 28 ],
+    "$item_renderer_size": [ 24, 24 ],
+    "$background_images": "crafting.crafting_container_cell_images_alt9",
+    "$item_renderer_binding_condition": "always",
+    "$button_ref": "crafting.inventory_container_slot_button"
+  },
+
+  // Grids
   "crafting_grid_3x3": {
     "type": "grid",
     "size": [ 84, 84 ],
@@ -19,10 +155,9 @@
     "anchor_from": "top_left",
     "anchor_to": "top_left",
     "grid_dimensions": [ 3, 3 ],
-    "grid_item_template": "crafting_pocket.crafting_input_grid_item_alt",
+    "grid_item_template": "crafting_pocket.crafting_input_grid_item_alt5",
     "collection_name": "crafting_input_items"
   },
-  
   "crafting_grid_2x2": {
     "type": "grid",
     "size": [ 56, 56 ],
