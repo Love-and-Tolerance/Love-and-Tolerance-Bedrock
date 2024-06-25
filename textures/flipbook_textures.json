@@ -1,33 +1,5 @@
 [
   {
-    "flipbook_texture": "textures/blocks/sculk_vein_2",
-    "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
-    "atlas_tile_variant": 2,
-    "ticks_per_frame": 24
-  },
-  {
-    "flipbook_texture": "textures/blocks/sculk_vein_3",
-    "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
-    "atlas_tile_variant": 3,
-    "ticks_per_frame": 24
-  },
-  {
-    "flipbook_texture": "textures/blocks/sculk_vein_4",
-    "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
-    "atlas_tile_variant": 4,
-    "ticks_per_frame": 24
-  },
-  {
-    "flipbook_texture": "textures/blocks/sculk_vein",
-    "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
-    "atlas_tile_variant": 1,
-    "ticks_per_frame": 24
-  },
-  {
     "flipbook_texture": "textures/blocks/fire_0",
     "atlas_tile": "fire_0",
     "frames": [ 6, 7, 8, 9, 10, 11, 0, 1, 2, 3, 4, 5 ],
@@ -291,81 +263,5 @@
     "atlas_tile": "mob_spawner",
     "frames": [ 0, 1, 2, 3, 4, 3, 2, 1 ],
     "ticks_per_frame": 2
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_11",
-    "atlas_tile": "jukebox_11",
-    "frames": [ 0, 1, 2, 3 ],
-    "ticks_per_frame": 3
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_13",
-    "atlas_tile": "jukebox_13",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_5",
-    "atlas_tile": "jukebox_5",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_blocks",
-    "atlas_tile": "jukebox_blocks",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_cat",
-    "atlas_tile": "jukebox_cat",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_chirp",
-    "atlas_tile": "jukebox_chirp",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_far",
-    "atlas_tile": "jukebox_far",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_mall",
-    "atlas_tile": "jukebox_mall",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_mellohi",
-    "atlas_tile": "jukebox_mellohi",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_otherside",
-    "atlas_tile": "jukebox_otherside",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_pigstep",
-    "atlas_tile": "jukebox_pigstep",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_stal",
-    "atlas_tile": "jukebox_stal",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_strad",
-    "atlas_tile": "jukebox_strad",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_wait",
-    "atlas_tile": "jukebox_wait",
-    "frames": [ 0, 1, 2, 3 ]
-  },
-  {
-    "flipbook_texture": "textures/blocks/jukebox_ward",
-    "atlas_tile": "jukebox_ward",
-    "frames": [ 0, 1, 2, 3 ]
   }
 ]
