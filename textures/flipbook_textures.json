@@ -264,33 +264,235 @@
     "frames": [ 0, 1, 2, 3, 4, 3, 2, 1 ],
     "ticks_per_frame": 2
   },
+  {
+    "flipbook_texture": "textures/blocks/heavy_core",
+    "atlas_tile": "heavy_core",
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 32
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_inactive",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 0,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_active",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 1,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_active",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 2,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_ejecting_reward",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 3,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_ejecting_reward",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 4,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_inactive",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 5,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_inactive_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 6,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_active_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 7,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_active_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 8,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_ejecting_reward_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 9,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_ejecting_reward_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 10,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_top_inactive_ominous",
+    "atlas_tile": "trial_spawner_top",
+	"atlas_index": 11,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_bottom",
+    "atlas_tile": "trial_spawner_bottom",
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_inactive",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 0,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 1,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 2,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 3,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 4,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_inactive",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 5,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_inactive_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 6,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 7,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 8,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 9,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_active_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 10,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
+  {
+    "flipbook_texture": "textures/blocks/trial_spawner_side_inactive_ominous",
+    "atlas_tile": "trial_spawner_side",
+	"atlas_index": 11,
+    "frames": [ 0, 1 ],
+	"blend_frames": true,
+    "ticks_per_frame": 128
+  },
   // Variations
+  {
+    "flipbook_texture": "textures/blocks/sculk_vein",
+    "atlas_tile": "sculk_vein",
+    "atlas_tile_variant": 1,
+    "ticks_per_frame": 24
+  },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_2",
     "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
     "atlas_tile_variant": 2,
     "ticks_per_frame": 24
   },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_3",
     "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
     "atlas_tile_variant": 3,
     "ticks_per_frame": 24
   },
   {
     "flipbook_texture": "textures/blocks/sculk_vein_4",
     "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
     "atlas_tile_variant": 4,
-    "ticks_per_frame": 24
-  },
-  {
-    "flipbook_texture": "textures/blocks/sculk_vein",
-    "atlas_tile": "sculk_vein",
-    "atlas_index": 0,
-    "atlas_tile_variant": 1,
     "ticks_per_frame": 24
   }
 ]

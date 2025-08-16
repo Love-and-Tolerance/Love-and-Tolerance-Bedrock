@@ -25,6 +25,9 @@
         "textures/blocks/beehive_bottom"
       ]
     },
+    "trial_spawner_bottom": {
+      "textures": "textures/blocks/trial_spawner_bottom"
+    },
     // Variations
 	"chiseled_bookshelf_front": {
       "textures": [
