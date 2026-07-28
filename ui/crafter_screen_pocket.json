@@ -25,33 +25,33 @@
       {
         "default": {
           "type": "image",
-          "texture": "textures/ui/slot_disabled_pocket"
+          "texture": "textures/ui/slot_disabled5"
         }
       },
       {
         "hover": {
           "type": "image",
-          "texture": "textures/ui/slot_enabled_hover_pocket"
+          "texture": "textures/ui/slot_disabled_hover5"
         }
       },
       {
         "pressed": {
           "type": "image",
-          "texture": "textures/ui/slot_disabled_pocket"
+          "texture": "textures/ui/slot_disabled5"
         }
       }
     ]
   },
   "cell_image": {
     "type": "image",
-    "texture": "textures/ui/slot_enabled_pocket",
+    "texture": "textures/ui/slot_enabled5",
     "layer": 1,
     "size": [ 28, 28 ]
   },
 
   "crafter_highlight_slot": {
     "type": "image",
-    "texture": "textures/ui/slot_enabled_hover_pocket",
+    "texture": "textures/ui/slot_enabled_hover5",
     "size": [ "100% - 2px", "100% - 2px" ],
     "alpha": 0.8
   },
@@ -73,26 +73,6 @@
                   {
                     "binding_name": "$hover_text_binding_name",
                     "binding_name_override": "#hover_text",
-                    "binding_type": "collection",
-                    "binding_collection_name": "$item_collection_name"
-                  }
-                ]
-              }
-            },
-            {
-              "bundle_tooltip@common.bundle_tooltip": {
-                "layer": 29,
-                "$hover_text_binding_name|default": "#hover_text",
-                "bindings": [
-                  {
-                    "binding_name": "$hover_text_binding_name",
-                    "binding_name_override": "#hover_text",
-                    "binding_type": "collection",
-                    "binding_collection_name": "$item_collection_name"
-                  },
-                  {
-                    "binding_name": "#hover_items_id",
-                    "binding_name_override": "#hover_items_id",
                     "binding_type": "collection",
                     "binding_collection_name": "$item_collection_name"
                   }

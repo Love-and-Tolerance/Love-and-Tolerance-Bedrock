@@ -900,8 +900,10 @@
   
   "crafting_screen@crafting.inventory_screen_base": {
     "send_telemetry": false,
+    "$uses_bundle_tooltip": true,
     "$screen_content": "crafting.recipe_inventory_screen_content_alt",
     "$screen_bg_content": "common.screen_background",
+    "$screen_background_alpha": 0.4,
     "$top_half_variant": "crafting.crafting_panel_top_half",
     "$close_on_player_hurt|default": true,
     "close_on_player_hurt": "$close_on_player_hurt"
@@ -930,7 +932,7 @@
               }
             },
             {
-              "center_fold@crafting.center_fold": {
+              "center_fold@common.center_fold": {
                 "size": [ 4, 166 ],
                 "bindings": [
                   {
@@ -1009,13 +1011,9 @@
           ]
         }
       },
-      {
-        "flying_item_renderer@common.flying_item_renderer": {
-          "layer": 13
-        }
-      },
       { "selected_item_details_factory@common.selected_item_details_factory": {} },
-      { "item_lock_notification_factory@common.item_lock_notification_factory": {} }
+      { "item_lock_notification_factory@common.item_lock_notification_factory": {} },
+      { "flying_item_renderer@common.flying_item_renderer": { "layer": 15 } }
     ]
   }
 }
